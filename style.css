@@ -1,0 +1,59 @@
+:root {
+  --arabian-font: "Aref Ruqaa Ink", serif;
+  --evropian: "Nabla", system-ui;
+}
+
+body {
+  font-size: 16px;
+}
+
+li:first-child,
+li:last-child {
+  color: yellow;
+}
+
+li:hover,
+a:focus {
+  color: aqua;
+}
+
+.arab {
+  font-family: var(--arabian-font, "Aref Ruqaa Ink", serif);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arab-bold {
+  font-weight: 700;
+}
+
+.evropian {
+  font-family: var(--evropian);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
+}
+
+.text {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.Ukrainian {
+  display: flex;
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  justify-content: start;
+  word-break: break-all;
+  word-wrap: break-word;
+  word-spacing: 2px;
+}
+
+.capitalize {
+  text-transform: uppercase;
+  color: blueviolet;
+  white-space: pre;
+}
